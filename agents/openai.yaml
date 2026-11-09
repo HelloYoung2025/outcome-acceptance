@@ -1,0 +1,4 @@
+interface:
+  display_name: "输入到结果验收"
+  short_description: "逐项追踪用户场景与真实结果，用反例核验关键边界，并明确完成声明的证据范围"
+  default_prompt: "使用 $outcome-acceptance 核对这个项目：从原始输入追到用户可见结果，用反例验证关键边界，并报告已验证范围和缺口。"
